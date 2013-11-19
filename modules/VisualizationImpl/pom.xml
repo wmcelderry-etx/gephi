@@ -10,43 +10,54 @@
 
     <groupId>org.gephi</groupId>
     <artifactId>visualization</artifactId>
-    <version>0.8.2</version>
+    <version>0.8.2-et</version>
     <packaging>nbm</packaging>
 
     <name>VisualizationImpl</name>
+    <properties>
+        <gephi.base.version>0.8.2</gephi.base.version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>data-attributes-api</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>datalab-api</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>dynamic-api</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>graph-api</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>tools-api</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ui-components</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ui-library-wrapper</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ui-utils</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -103,22 +114,27 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>project-api</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>gleem</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>utils-collection</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>lib.validation</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>desktop-project</artifactId>
+            <version>${gephi.base.version}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
